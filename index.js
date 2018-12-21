@@ -20,7 +20,6 @@ function getDownloadUrl(url) {
           fileSize: sd_size
         }
       });
-      resolve(hd_size);
     } catch (error) {
       reject(error);
     }
